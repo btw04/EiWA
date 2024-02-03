@@ -19,9 +19,9 @@ def get_coordinates():
     """Return a list of coordinates to pin."""
     # TODO: Get the bike positions from the GBFS API and replace the dummy coordinates
     return [
-        {"lat": 52.5200, "lon": 13.4050, "popup": "Berlin"},
-        {"lat": 48.1351, "lon": 11.5820, "popup": "Munich"},
-        {"lat": 53.5511, "lon": 9.9937, "popup": "Hamburg"}
+        {"lat": 52.5200, "lon": 13.4050},
+        {"lat": 48.1351, "lon": 11.5820},
+        {"lat": 53.5511, "lon": 9.9937}
     ]
 
 
