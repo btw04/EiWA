@@ -3,7 +3,7 @@ import requests
 # FaSta API endpoint
 facilities_url = 'https://apis.deutschebahn.com/db-api-marketplace/apis/fasta/v2/facilities'
 
-# include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'
+# TODO: include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'
 client_id = 'ec0b224441a9443450c41a514bbbb38b'
 client_secret = '43d6309a2538cdca051d8986d4f21c43'
 

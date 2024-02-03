@@ -5,7 +5,6 @@ import requests
 # GBFS API endpoint
 url = 'https://apis.deutschebahn.com/db-api-marketplace/apis/shared-mobility-gbfs/2-2/de/CallABike/free_bike_status'
 
-# include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'
 client_id = 'ec0b224441a9443450c41a514bbbb38b'
 client_secret = '43d6309a2538cdca051d8986d4f21c43'
 
