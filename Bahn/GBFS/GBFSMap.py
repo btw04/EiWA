@@ -5,14 +5,19 @@ import requests
 # GBFS API endpoint
 url = 'https://apis.deutschebahn.com/db-api-marketplace/apis/shared-mobility-gbfs/2-2/de/CallABike/free_bike_status'
 
-# include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'!
+# include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'
 client_id = 'ec0b224441a9443450c41a514bbbb38b'
 client_secret = '43d6309a2538cdca051d8986d4f21c43'
+
+session = requests.Session()
+session.headers = {
+    # TODO: Add the headers to the session
+}
 
 
 def get_coordinates():
     """Return a list of coordinates to pin."""
-    # TODO: Get the coordinates from the GBFS API and replace the dummy coordinates
+    # TODO: Get the bike positions from the GBFS API and replace the dummy coordinates
     return [
         {"lat": 52.5200, "lon": 13.4050, "popup": "Berlin"},
         {"lat": 48.1351, "lon": 11.5820, "popup": "Munich"},
