@@ -11,10 +11,11 @@ session = requests.Session()
 
 
 def get_darmstadt_image(date: datetime):
+    formatted_date = date.strftime('%Y-%m-%d')
     params = {
         'lat': position[0],
         'lon': position[1],
-        'date': date.strftime('%Y-%m-%d'),
+        'date': formatted_date,
         'dim': angel,
         'api_key': nasa_api_key
     }

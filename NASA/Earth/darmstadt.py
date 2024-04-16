@@ -17,6 +17,7 @@ def get_darmstadt_image(date: datetime):
     """
     Get the satellite image of Darmstadt for a specific date
     """
+    formatted_date = date.strftime('%Y-%m-%d')
     params = {
         # TODO: Add parameters for the request (lat, lon, date, dim, api_key)
     }
