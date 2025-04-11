@@ -1,6 +1,6 @@
 import datetime
 import requests
-import SatelliteImageVisualizer
+import satellite_image_visualizer
 
 nasa_api_key = 'RUO4ABnSnWSZ0JulyEqzIN1inFD55AxnuzOf8EBY'
 url = 'https://api.nasa.gov/planetary/earth/assets'
@@ -43,7 +43,7 @@ def show_darmstadt():
 
     print("Images: " + str(images))
 
-    SatelliteImageVisualizer.display_satellite_images(images, dates)
+    satellite_image_visualizer.display_satellite_images(images, dates)
 
 
 show_darmstadt()

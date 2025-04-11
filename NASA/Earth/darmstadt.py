@@ -1,6 +1,6 @@
 import datetime
 import requests
-import SatelliteImageVisualizer
+import satellite_image_visualizer
 
 
 # Parameters
@@ -49,7 +49,7 @@ def show_darmstadt():
     print("Images: " + str(images))
 
     # Display the images using the SatelliteImageVisualizer. Note that this causes a mass-download of images.
-    SatelliteImageVisualizer.display_satellite_images(images, dates)
+    satellite_image_visualizer.display_satellite_images(images, dates)
 
 
 show_darmstadt()
