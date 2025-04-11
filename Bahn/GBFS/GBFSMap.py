@@ -3,7 +3,7 @@ from folium.plugins import MarkerCluster
 import requests
 
 # GBFS API endpoint
-url = 'https://apis.deutschebahn.com/db-api-marketplace/apis/shared-mobility-gbfs/2-2/de/CallABike/free_bike_status'
+url = 'https://apis.deutschebahn.com/db-api-marketplace/apis/shared-mobility-gbfs/v2/de/CallABike/free_bike_status'
 
 # TODO: include these in the header of the request as 'DB-Client-ID' and 'DB-Api-Key'
 client_id = 'ec0b224441a9443450c41a514bbbb38b'
